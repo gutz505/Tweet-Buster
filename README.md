@@ -22,3 +22,6 @@ This application was developed and tested throughout June 2024 in the following 
 ### GitHub Repository
 Locate all resources generated throughout this project at the following link:
 https://github.com/gutz505/Tweet-Buster
+
+### Tweet-Buster GUI
+In the course of this project a basic GUI was developed in order to illustrate the possibility of substituting user navigation across the Python notebook. Connecting the GUI elements to the logic elements of the application remains open for future development. In order to inspect the GUI, download the tweet_buster_gui.py Python script and execute it.
