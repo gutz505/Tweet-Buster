@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Tweet Buster",
+    "version": "1.0",
+
+    "icons": {
+        "16": "Logo/Logo.png",
+        "48": "Logo/Logo.png",
+        "128": "Logo/Logo.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.x.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
